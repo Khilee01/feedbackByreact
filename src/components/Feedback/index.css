@@ -1,0 +1,70 @@
+/* Write your CSS code here. */
+
+.emojis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+p {
+  text-align: center;
+}
+img {
+  height: 100px;
+}
+button {
+  background-color: #ffffff;
+  border: none;
+}
+.heart {
+  height: 80px;
+  width: 90px;
+}
+
+@media (max-width: 767px) {
+  .whiteBg {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  img {
+    height: 50px;
+  }
+  .love {
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+  .emojis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .whiteBg {
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+  }
+  .emojis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .love {
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+  }
+}
